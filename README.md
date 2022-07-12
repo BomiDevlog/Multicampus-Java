@@ -24,7 +24,8 @@
 `System.out.println();`
 
 2.여러 줄 소스코드
-```int[] a []; 
+```
+int[] a []; 
 
 		a=new int[3][2];
 
@@ -44,9 +45,10 @@
 				System.out.print(a[i][k]+" ");
 			}
 			System.out.println();
-		}```
+		}
+		```
     
 ###링크 삽입
 <http://cafe.naver.com/hicode>
 
-[Hello코딩놀이터](http://cafe.naver.com/hicode, "강사님 카페")
+[Hello코딩놀이터] (http://cafe.naver.com/hicode, "강사님 카페")
