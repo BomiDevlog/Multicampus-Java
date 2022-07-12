@@ -47,7 +47,7 @@ int[] a [];
 			System.out.println();
 		}
 		```
-    
+    ---
 ###링크 삽입
 <http://cafe.naver.com/hicode>
 
