@@ -47,8 +47,11 @@ int[] a [];
 			System.out.println();
 		}
 		```
-    ---
+
+---
 ###링크 삽입
+
 <http://cafe.naver.com/hicode>
+
 
 [Hello코딩놀이터] (http://cafe.naver.com/hicode, "강사님 카페")
