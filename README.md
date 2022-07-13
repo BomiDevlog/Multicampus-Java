@@ -17,6 +17,14 @@
   * 들여씀
 ---
 
+###링크 삽입
+
+<http://cafe.naver.com/hicode>
+
+
+[Hello코딩놀이터] (http://cafe.naver.com/hicode, "강사님 카페")
+---
+
 ### 소스코드 삽입하기
 
 1. 한 줄 소스코드
@@ -24,7 +32,7 @@
 `System.out.println();`
 
 2.여러 줄 소스코드
-```
+```java
 int[] a []; 
 
 		a=new int[3][2];
@@ -48,10 +56,4 @@ int[] a [];
 		}
 		```
 
----
-###링크 삽입
 
-<http://cafe.naver.com/hicode>
-
-
-[Hello코딩놀이터] (http://cafe.naver.com/hicode, "강사님 카페")
