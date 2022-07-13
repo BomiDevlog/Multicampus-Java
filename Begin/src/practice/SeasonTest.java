@@ -34,30 +34,7 @@ public class SeasonTest {
 			return;
 		}
 		
-		/*
-		 * Scanner si=new Scanner(System.in);
-		System.out.println("월을 입력[1~12]=>");
-		int month2=si.nextInt();
-		
-		int days2=0; //''로 감싸면 문자가 되니까. 인트 숫자일 때는 홑따옴표안함. char일땐 꼭 홑따옴표
-		switch (month) {
-		case 1,3,5,7,8,10 :
-			days2=31;
-		break;
-		case 2 :
-			days2=28;
-		break;
-		case 4,6,9,11 :
-			days2=30;
-		break;
-		default :
-			System.out.println("없는 달");
-		return;
-		}
-		System.out.println(month2+"월은 "+days2+"일까지 있습니다~");
-	
-		 */
 
-	}//
+	}
 
-}//
+}
