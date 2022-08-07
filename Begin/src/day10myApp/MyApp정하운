@@ -1,0 +1,40 @@
+package day10;
+import javax.swing.*;
+import java.awt.*;
+
+public class MyApp extends JFrame {
+	
+	JButton bt[] = new JButton[4];
+	JPanel p = new JPanel();
+	JPanel pN = new JPanel();
+	JTextArea ta = new JTextArea("JTextArea");
+	
+	public MyApp() {
+		super("::MyApp::");
+		
+		add(p);
+		p.setLayout(new BorderLayout());
+		p.add(pN,"North");
+		p.setBackground(Color.white);
+		pN.setBackground(Color.red);
+		
+		String bttext[] = {"Login","Join","Home","Exit"};
+		for(int i=0; i<bt.length; i++) {
+			bt[i] = new JButton(bttext[i]);
+			pN.add(bt[i]);
+		}
+		
+		p.add(new JScrollPane(ta),"Center");
+		ta.setBackground(Color.white);
+		ta.setForeground(Color.black);		
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args) {
+		MyApp my = new MyApp();
+		my.setSize(500,500);
+		my.setVisible(true);
+	}
+
+}

@@ -1,0 +1,50 @@
+package day10;
+import javax.swing.*;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+
+public class MyApp extends JFrame{
+	
+	JPanel p = new JPanel();
+	JPanel pn = new JPanel();
+	JTextArea txt = new JTextArea();
+	JButton bt1, bt2, bt3, bt4;
+
+	public MyApp() {
+		super("::MyApp::");
+		add(p);
+		p.setLayout(new BorderLayout());
+		p.setBackground(Color.BLUE);
+		
+		pn.setBackground(Color.WHITE);
+		p.add(pn, "North");
+		
+		txt.setBackground(Color.gray);
+		p.add(txt, "Center");
+		JScrollPane sp = new JScrollPane(txt);
+		p.add(sp);
+		p.add(new JScrollPane(txt));
+		
+		
+		bt1 = new JButton("Login");
+		bt2 = new JButton("Join");
+		bt3 = new JButton("Home");
+		bt4 = new JButton("Exit");
+		
+		pn.add(bt1);
+		pn.add(bt2);
+		pn.add(bt3);
+		pn.add(bt4);
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args) {
+		MyApp my = new MyApp();
+		my.setSize(500, 500);
+		my.setVisible(true);
+
+	}
+
+}
