@@ -30,7 +30,7 @@ public class SeasonTest {
 			System.out.println("풍성한 \'가을\'입니다");
 			break;
 		default:
-			System.out.println("몇 월인지 다시 확인해주세요");
+			System.out.println("잘못된 입력입니다! 다시 입력해주세요!");
 			return;
 		}
 		

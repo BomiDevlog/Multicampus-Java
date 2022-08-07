@@ -20,14 +20,16 @@ public class WhileTest {
 			System.out.println("정수를 입력하세요=>");
 			int input=sc.nextInt();
 			if (input==0) {
-				System.out.println("게임을 종료합니다.Bye!");
+				System.out.println("게임을 종료합니다.Thank you!");
 				break;
 			}
 			count++;
 			sum+=input;
-			System.out.println("게임 횟수: "+count+"회");
-			System.out.println("input 평균값: "+sum/count);
+			System.out.println("총 게임 횟수: "+count+"회");
+			System.out.println("전체 input 평균값: "+sum/count);
 		}
+		
+		
 		
 	}//
 

@@ -7,11 +7,11 @@ public class MultipleTest {
 		 * 3 또는 4의 배수의 합을 계산
 		 */
 		int sum=0;
-		for(int i=1;i<101;i++) {
+		for(int i=1;i<=100;i++) {
 			if(i%3==0 || i%4==0) {
 				sum+=i;
 			}
-		}System.out.println("3 또는 4의 배수의 합"+sum);
+		}System.out.println("3 또는 4의 배수의 합="+sum);
 
 	}
 
