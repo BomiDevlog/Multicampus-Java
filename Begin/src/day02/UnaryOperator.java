@@ -10,7 +10,7 @@ public class UnaryOperator {
 		System.out.println(-a);
 		System.out.println("2. 증감연산자 : ++,--");
 		int b=5;
-		long c=9;
+		long c=9; 
 		b++; //b=b+1 //b의 값을 1씩 증가시켜 다시 b의 결과값으로 대입
 		c--; //c=c-1
 		System.out.println(b); //6
